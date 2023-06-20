@@ -68,6 +68,11 @@ button:active {
   color: #333;
 }
 
+button:hover {
+  background-color: #555;
+  cursor: pointer;
+}
+
 input:focus {
   outline: #333 solid 1px;
 }
@@ -85,4 +90,12 @@ input:focus {
   border-radius: 5px;
   border: none;
   box-shadow: #333;
+}
+
+#fahrenheit {
+  cursor: default;
+}
+
+#rumus {
+  cursor: default;
 }
